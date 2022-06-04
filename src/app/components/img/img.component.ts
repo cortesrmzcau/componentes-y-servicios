@@ -26,8 +26,8 @@ export class ImgComponent implements OnInit, OnChanges, AfterViewInit, OnDestroy
   @Output() texto = new EventEmitter<string>();
   txt: string = 'Mensaje enviado desde el hijo';
 
-  counter = 0;
-  conunterFN: number | undefined;
+  // counter = 0;
+  // conunterFN: number | undefined;
 
   constructor() {
     // before render
@@ -48,10 +48,10 @@ export class ImgComponent implements OnInit, OnChanges, AfterViewInit, OnDestroy
     // async - fetch -- once time
     //this.texto.emit(this.txt);
     console.log('ngOnInit', 'imgValue =>', this.img);
-    this.conunterFN = window.setInterval(() => {
-      this.counter += 1;
-      console.log('run counter');
-    }, 1000)
+    // this.conunterFN = window.setInterval(() => {
+    //   this.counter += 1;
+    //   console.log('run counter');
+    // }, 1000)
   }
 
   ngAfterViewInit(): void {
@@ -63,7 +63,7 @@ export class ImgComponent implements OnInit, OnChanges, AfterViewInit, OnDestroy
   ngOnDestroy(): void {
       // delete component -- once time
       console.log('ngOnDestroy');
-      window.clearInterval(this.conunterFN);
+      // window.clearInterval(this.conunterFN);
   }
 
   imgError() {
