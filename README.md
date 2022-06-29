@@ -1,4 +1,16 @@
-# 🌟 Curso de Componentes y Servicios con Angular de Platzi 💚
+### 🌟 Practicas del Curso Angular: Componentes y Servicios en Platzi 💚
+
+🔔 [Demo](https://62bcbe2ba52d8100742fe252--splendid-syrniki-d38f14.netlify.app/)
+
+🔔 Curso de [Angular: Componentes y Servicios](https://platzi.com/cursos/angular-componentes/) en Platzi
+
+#### Estructura del curso:
+- Componentes
+- Servicios
+- Pipes y Directivas
+- Practicas
+
+---
 
 🔥 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
